@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(233, 155, 103)
+}
+
+
+img{
+    border-radius: 50px ; 
+    width: 100px ; 
+    height: auto;
+}
+
+#Menu{
+    text-align: right;
+}
+
