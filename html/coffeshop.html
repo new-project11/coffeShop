@@ -7,14 +7,24 @@
     <link rel="stylesheet" href="../css/coffeeshop.css">
 </head>
 <body>
-
-
-    <div class="w3-card-4">
-        <img src="../photo/Iced-MatchaPhoto.jpg" alt="">
+  <img src="../photo/coffeeLogoPhoto.jpg" alt="">
+  <div class="row">
+    <div>
+      <nav>
+          <ul>
+              <li><a href="#menu" >Menu</a></li>
+          </ul>
+      </nav>
+      </div>
+  
+    <div class="card">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../photo/Iced-MatchaPhoto.jpg" alt="" style="width:80%">
         <div class="w3-container w3-center">
           <p>Iced Matcha</p> 
           <p> Price: 8$</p>
-          <button>Order Now </button> <br>
+          <button onclick="myFunction()">Order Now </button> <br>
+          <p id="demo"></p>
+        
         </div>
       </div>
 
@@ -22,65 +32,72 @@
 
 
       
-    <div class="w3-card-4">
-        <img src="../photo/pinkDrinkPhoto.jpg" alt="">
+    <div class="card">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../photo/pinkDrinkPhoto.jpg" alt="" style="width:80%">
         <div class="w3-container w3-center">
           <p> Pink Drink </p> 
           <p> Price: 5$</p>
-          <button>Order Now </button> <br>
+          <button onclick="myFunction()">Order Now </button> <br>
+          <p id="demo"></p>
         </div>
       </div>
 
 
-      <div class="w3-card-4">
-        <img src="../photo/3rdPhoto.jpg" alt="">
+      <div class="card">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../photo/3rdPhoto.jpg" alt="" style="width:80%">
         <div class="w3-container w3-center">
           <p> Chocolate Drink With cinnamon</p>
           <p> price: 7$</p>
-          <button>Order Now </button> <br>
+          <button onclick="myFunction()">Order Now </button> <br>
+          <p id="demo"></p>
         </div>
       </div>
 
 
-      <div class="w3-card-4">
-        <img src="../photo/secondPhoto.jpg" alt="">
+      <div class="card">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../photo/secondPhoto.jpg" alt="" style="width:80%">
         <div class="w3-container w3-center">
           <p> latte Drink With cinnamon</p>
           <p> price: 5.60$ </p>
-          <button>Order Now </button> <br>
+          <button onclick="myFunction()">Order Now </button> <br>
+          <p id="demo"></p>
         </div>
       </div>
 
 
-      <div class="w3-card-4">
-        <img src="../photo/fluffy-cinnamon-rolls.jpg" alt="">
+      <div class="card">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../photo/fluffy-cinnamon-rolls.jpg" alt="" style="width:80%">
         <div class="w3-container w3-center">
           <p> cinnamon-rolls</p>
           <p> price: 4$ </p>
-          <button>Order Now </button> <br> 
+          <button onclick="myFunction()">Order Now </button> <br> 
+          <p id="demo"></p>
         </div>
       </div>
 
 
-      <div class="w3-card-4">
-        <img src="../photo/espressoDrink.jpg" alt="">
+      <div class="card">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../photo/espressoDrink.jpg" alt="" style="width:80%">
         <div class="w3-container w3-center">
           <p> espresso </p>
           <p> price: 3$ </p>
-          <button>Order Now </button> <br> 
+          <button onclick="myFunction()">Order Now </button> <br> 
+          <p id="demo"></p>
         </div>
       </div>
+  </div>
 
 
       
 
 
-<div>
-<nav>
-    <ul>
-        <li><a href="#menu">Menu</a></li>
-    </ul>
-</nav>
+
+<div class="card">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="../ccccccc/images (1).jpg" alt="Denim Jeans" style="width:100%">
+  <h1>espresso coffe</h1>
+  <p class="price">$19.99</p>
+  <p>great drink.</p>
+  <p><button>Add to Cart</button></p>
 </div>
 
 
@@ -88,7 +105,10 @@
 
 
 
-<img src="../photo/coffeeLogoPhoto.jpg" alt="">
+
+
+
 <script src="../js/main.js"></script>
+<script src="../js/coffe.js"></script>
 </body>
 </html>
