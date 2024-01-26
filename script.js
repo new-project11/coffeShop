@@ -1,10 +1,10 @@
-var navbar=document.querySelector('.hearder.navbar');
-document.querySelector('#menu-btn').onclick=() =>{
-    navbar.classList.add('active')
-}
-document.querySelector('#close-navbar').onclick=() =>{
-    navbar.classList.remove('active')
-}
+// var navbar=document.querySelector('.hearder.navbar');
+// document.querySelector('#menu-btn').onclick=() =>{
+//     navbar.classList.add('active')
+// }
+// document.querySelector('#close').onclick=() =>{
+//     navbar.classList.remove('active')
+// }
 
 
 
@@ -12,12 +12,12 @@ document.querySelector('#close-navbar').onclick=() =>{
 
 coffees=
 [
-    {id:1,img:"photos/LattePhoto.jpg",price:"3$",title:"Latte Drink",},
-    {id:2,img:"Iced-MatchaPhoto.jpg",price:"4$",title:"Iced Matcha ",},
-    {id:3,img:"pinkDrinkPhoto.jpg",price:"6$",title:"Pink Drink ",},
-    {id:4,img:"photos/latteDrink With Cinnamon.jpg",price:"4.25$",title:"Hot Chocolate With cinnamon",}
-    {id:3,img:"photos/icedCoffeePhoto.jpg",price:"5$",title:"Iced Coffee ",},
-    {id:3,img:"photos/fluffy-cinnamon-rolls.jpg",price:"5.50$",title:"fluffy-cinnamon-rolls ",}
+    {id:1,img:"./photos/hour.jpg",price:"3$",title:"Latte Drink"},
+    {id:2,img:"./menu/p2.jpg",price:"4$",title:"Iced Matcha "},
+    {id:3,img:"./menu/p3.jpg",price:"6$",title:"Pink Drink "},
+    {id:4,img:"./menu/p4.jpg",price:"4.25$",title:"Hot Chocolate With cinnamon",},
+    {id:3,img:"./menu/p5.jpg",price:"5$",title:"Iced Coffee "},
+    {id:3,img:"./menu/p6.jpg",price:"5.50$",title:"fluffy-cinnamon-rolls "}
 
 ]
 
@@ -45,7 +45,7 @@ function addToCart(productId) {
     }
 }
 function viewCart() {
-    var cartContents = cart.map(product => ${product.name} - $${product.price}).join('\n');
+    // var cartContents = cart.map(product => ${product.name} - $${product.price}).join('\n');
     alert("Contenu du panier :\n" + cartContents);
 }
 
