@@ -31,27 +31,3 @@ h1{
     border-radius: 30px;
     justify-content: space-between;
 }
-
-
-
-
-
-
-
-
-h2{
-    background-color: rgb(255, 243, 205);
-    color: rgb(245, 192, 177);
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    border-radius: 50px;
-    float: center ;
-}
-
-
-
-h1:hover{
-    color:rgba(234, 169, 78, 0.695);
-}
